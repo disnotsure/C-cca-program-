@@ -1,0 +1,103 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "1. CLASS" << endl;
+    cout << "class ClassName" << endl;
+    cout << "{" << endl;
+    cout << "};" << endl << endl;
+
+    cout << "2. OBJECT" << endl;
+    cout << "ClassName object;" << endl << endl;
+
+    cout << "3. STRUCTURE" << endl;
+    cout << "struct StructureName" << endl;
+    cout << "{" << endl;
+    cout << "    data_type variable;" << endl;
+    cout << "};" << endl << endl;
+
+    cout << "4. UNION" << endl;
+    cout << "union UnionName" << endl;
+    cout << "{" << endl;
+    cout << "    data_type variable;" << endl;
+    cout << "};" << endl << endl;
+
+    cout << "5. ARRAY" << endl;
+    cout << "data_type arrayName[size];" << endl << endl;
+
+    cout << "6. POINTER" << endl;
+    cout << "data_type *pointerName;" << endl;
+    cout << "pointerName = &variable;" << endl << endl;
+
+    cout << "7. FUNCTION" << endl;
+    cout << "return_type functionName(parameters)" << endl;
+    cout << "{" << endl;
+    cout << "    statements;" << endl;
+    cout << "}" << endl << endl;
+
+    cout << "8. CONSTRUCTOR" << endl;
+    cout << "ClassName()" << endl;
+    cout << "{" << endl;
+    cout << "    statements;" << endl;
+    cout << "}" << endl << endl;
+
+    cout << "9. INHERITANCE" << endl;
+    cout << "class Derived : public Base" << endl;
+    cout << "{" << endl;
+    cout << "};" << endl << endl;
+
+    cout << "10. FUNCTION OVERLOADING" << endl;
+    cout << "return_type functionName(int a);" << endl;
+    cout << "return_type functionName(int a, int b);" << endl << endl;
+
+    cout << "11. OPERATOR OVERLOADING" << endl;
+    cout << "return_type operator +(ClassName obj)" << endl;
+    cout << "{" << endl;
+    cout << "}" << endl << endl;
+
+    cout << "12. FRIEND FUNCTION" << endl;
+    cout << "friend return_type functionName(ClassName obj);" << endl << endl;
+
+    cout << "13. VIRTUAL FUNCTION" << endl;
+    cout << "virtual return_type functionName()" << endl;
+    cout << "{" << endl;
+    cout << "}" << endl << endl;
+
+    cout << "14. PURE VIRTUAL FUNCTION" << endl;
+    cout << "virtual return_type functionName() = 0;" << endl << endl;
+
+    cout << "15. TEMPLATE" << endl;
+    cout << "template <class T>" << endl;
+    cout << "T functionName(T a)" << endl;
+    cout << "{" << endl;
+    cout << "}" << endl << endl;
+
+    cout << "16. EXCEPTION HANDLING" << endl;
+    cout << "try" << endl;
+    cout << "{" << endl;
+    cout << "}" << endl;
+    cout << "catch(type variable)" << endl;
+    cout << "{" << endl;
+    cout << "}" << endl << endl;
+
+    cout << "17. FILE HANDLING" << endl;
+    cout << "ofstream file;" << endl;
+    cout << "file.open(\"filename\");" << endl;
+    cout << "file.close();" << endl << endl;
+
+    cout << "18. DYNAMIC MEMORY" << endl;
+    cout << "data_type *ptr = new data_type;" << endl;
+    cout << "delete ptr;" << endl << endl;
+
+    cout << "19. SINGLE INHERITANCE" << endl;
+    cout << "class B : public A" << endl;
+    cout << "{" << endl;
+    cout << "};" << endl << endl;
+
+    cout << "20. MULTIPLE INHERITANCE" << endl;
+    cout << "class C : public A, public B" << endl;
+    cout << "{" << endl;
+    cout << "};" << endl;
+
+    return 0;
+}
